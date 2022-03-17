@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="annular Suite" verbose="1" parallel="classes">
+
+<listeners>
+        <listener class-name="com.annular.util.TestNGExecutionListener"></listener>
+</listeners>
+
+	<test name="Run All Tests in Google Chrome">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="browserVersion" value="91.0" />
+		<parameter name="isRemoteEnabled" value="false" />
+		<classes>
+		     <class name="com.annular.testrunners.TC_101"></class>
+             <class name="com.annular.testrunners.TC_102"></class>
+             <class name="com.annular.testrunners.TC_103"></class>
+             <class name="com.annular.testrunners.TC_104"></class> 
+              <class name="com.annular.testrunners.TC_105"></class>
+               <class name="com.annular.testrunners.TC_106"></class>
+   	   	</classes>
+	</test>
+</suite>
+
+
+
+
