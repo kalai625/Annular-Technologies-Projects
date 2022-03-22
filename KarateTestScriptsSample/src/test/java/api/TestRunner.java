@@ -18,7 +18,7 @@ public class TestRunner {
          Results results = Runner.path("classpath:api")
         		 				 .outputCucumberJson(true)
         		 				 .outputJunitXml(true)
-        		 				 .tags("@PostRisk")
+        		 				 .tags("@AuthenticateEmail")
         		 				 .parallel(1);
          generateReport(results.getReportDir());
          assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
