@@ -246,6 +246,7 @@ public class AnnularTechStepDefinitions {
     public void Click_the_final_link_of_hyperlink_bcz_od_taking_count_link(){
 		homePage.countLink().click();		
 		System.out.println("Click the final link of hyperlink bcz od taking count link");
+		System.out.println("link pass");
 				 
 	}
 	 

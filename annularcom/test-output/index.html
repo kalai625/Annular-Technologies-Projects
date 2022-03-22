@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-annular_Suite" class="navigator-link ">
-                    <span>C:\Kalai doc\annularwebsite\webannularcom\annularcom\resources\TestRail_TestSuite2.xml</span>
+                    <span>C:\Users\DELL\git\repository2\annularcom\resources\TestRail_TestSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,6 +106,40 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-annular_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-annular_Suite" class="hide-methods passed suite-annular_Suite"> (hide)</a> <!-- hide-methods passed suite-annular_Suite -->
+                      <a href="#" panel-name="suite-annular_Suite" class="show-methods passed suite-annular_Suite"> (show)</a> <!-- show-methods passed suite-annular_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-annular_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-annular_Suite" title="com.annular.testrunners.TC_105" class="method navigator-link" hash-for-method="runScenario(&quot;Drag and Drop&quot;, &quot;Dragagable and Dropabble&quot;)">runScenario("Drag and Drop", "Dragagable and Dropabble")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-annular_Suite" title="com.annular.testrunners.TC_104" class="method navigator-link" hash-for-method="runScenario(&quot;Alert Handling in testLeaf&quot;, &quot;Alert handling&quot;)">runScenario("Alert Handling in testLeaf", "Alert handling")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-annular_Suite" title="com.annular.testrunners.TC_101" class="method navigator-link" hash-for-method="runScenario(&quot;Element Appear in testleaf&quot;, &quot;Element Appear&quot;)">runScenario("Element Appear in testleaf", "Element Appear")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-annular_Suite" title="com.annular.testrunners.TC_103" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Radio Button&quot;, &quot;Verify Radio button&quot;)">runScenario("Verify Radio Button", "Verify Radio button")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-annular_Suite" title="com.annular.testrunners.TC_102" class="method navigator-link" hash-for-method="runScenario(&quot;verify hyperlink displayed in contactpage&quot;, &quot;verify hyperlink displayed in testleaf&quot;)">runScenario("verify hyperlink displayed in contactpage", "verify hyperlink displayed in testleaf")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-annular_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -147,13 +181,13 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at com.annular.stepdefinitions.AnnularTechStepDefinitions.Drag_the_box_to_the_same_box_dragabble(AnnularTechStepDefinitions.java:103)
 	at ✽.Drag the box to the same box dragabble(file:resources/features/annulartech/Dragabble.feature:7)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@style=&apos;background-color: forestgreen; position: relative;&apos;]&quot;}
-  (Session info: chrome=98.0.4758.102)
+  (Session info: chrome=99.0.4844.74)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-JG4GJSD&apos;, ip: &apos;192.168.0.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+System info: host: &apos;DESKTOP-JG4GJSD&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fd8db0b5afae115776652b87af31b786
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dae0d9c802b7c27968f06f1ef4b33e99
 *** Element info: {Using=xpath, value=//div[@style=&apos;background-color: forestgreen; position: relative;&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -200,10 +234,100 @@ Session ID: fd8db0b5afae115776652b87af31b786
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-annular_Suite-class-failed -->
+          <div class="suite-annular_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.annular.testrunners.TC_102</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;verify hyperlink displayed in contactpage&quot;, &quot;verify hyperlink displayed in testleaf&quot;)">
+                  </a> <!-- runScenario("verify hyperlink displayed in contactpage", "verify hyperlink displayed in testleaf") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("verify hyperlink displayed in contactpage", "verify hyperlink displayed in testleaf")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-annular_Suite-class-passed -->
+          <div class="suite-annular_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.annular.testrunners.TC_105</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Drag and Drop&quot;, &quot;Dragagable and Dropabble&quot;)">
+                  </a> <!-- runScenario("Drag and Drop", "Dragagable and Dropabble") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Drag and Drop", "Dragagable and Dropabble")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-annular_Suite-class-passed -->
+          <div class="suite-annular_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.annular.testrunners.TC_104</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Alert Handling in testLeaf&quot;, &quot;Alert handling&quot;)">
+                  </a> <!-- runScenario("Alert Handling in testLeaf", "Alert handling") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Alert Handling in testLeaf", "Alert handling")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-annular_Suite-class-passed -->
+          <div class="suite-annular_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.annular.testrunners.TC_103</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Radio Button&quot;, &quot;Verify Radio button&quot;)">
+                  </a> <!-- runScenario("Verify Radio Button", "Verify Radio button") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Radio Button", "Verify Radio button")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-annular_Suite-class-passed -->
+          <div class="suite-annular_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.annular.testrunners.TC_101</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Element Appear in testleaf&quot;, &quot;Element Appear&quot;)">
+                  </a> <!-- runScenario("Element Appear in testleaf", "Element Appear") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Element Appear in testleaf", "Element Appear")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-annular_Suite-class-passed -->
         </div> <!-- panel annular_Suite -->
         <div panel-name="test-xml-annular_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Kalai doc\annularwebsite\webannularcom\annularcom\resources\TestRail_TestSuite2.xml</span>
+            <span class="header-content">C:\Users\DELL\git\repository2\annularcom\resources\TestRail_TestSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -218,6 +342,11 @@ Session ID: fd8db0b5afae115776652b87af31b786
     &lt;parameter name=&quot;browserVersion&quot; value=&quot;91.0&quot;/&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.annular.testrunners.TC_101&quot;/&gt;
+      &lt;class name=&quot;com.annular.testrunners.TC_102&quot;/&gt;
+      &lt;class name=&quot;com.annular.testrunners.TC_103&quot;/&gt;
+      &lt;class name=&quot;com.annular.testrunners.TC_104&quot;/&gt;
+      &lt;class name=&quot;com.annular.testrunners.TC_105&quot;/&gt;
       &lt;class name=&quot;com.annular.testrunners.TC_106&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Run All Tests in Google Chrome --&gt;
@@ -232,7 +361,7 @@ Session ID: fd8db0b5afae115776652b87af31b786
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Run All Tests in Google Chrome (1 class)</span>
+                <span class="test-name">Run All Tests in Google Chrome (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -266,16 +395,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.annular.testrunners.TC_106')
-data.setCell(0, 3, 86779);
+data.setCell(0, 3, 87009);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.annular.testrunners.TC_101')
+data.setCell(1, 3, 23681);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.annular.testrunners.TC_102')
+data.setCell(2, 3, 10854);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.annular.testrunners.TC_103')
+data.setCell(3, 3, 7375);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.annular.testrunners.TC_104')
+data.setCell(4, 3, 7366);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.annular.testrunners.TC_105')
+data.setCell(5, 3, 6287);
 window.suiteTableData['annular_Suite']= { tableData: data, tableDiv: 'times-div-annular_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-annular_Suite">
               </div> <!-- times-div-annular_Suite -->
             </div> <!-- times-div -->
@@ -290,9 +439,44 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-annular_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.annular.testrunners.TC_102</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.annular.testrunners.TC_103</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.annular.testrunners.TC_104</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.annular.testrunners.TC_105</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.annular.testrunners.TC_106</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-annular_Suite" class="panel">
@@ -301,36 +485,171 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.annular.testrunners.TC_106</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.annular.testrunners.TC_101</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">77 ms</span>
+                <span class="method-start">86 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome, 91.0, false)</span>
-                <span class="method-start">508 ms</span>
+                <span class="method-start">531 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">605 ms</span>
+                <span class="method-start">602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Element Appear in testleaf", "Element Appear")</span>
+                <span class="method-start">668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(cucumber....)</span>
+                <span class="method-start">24355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">25828 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.annular.testrunners.TC_102</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">26031 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, 91.0, false)</span>
+                <span class="method-start">26047 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">26067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("verify hyperlink displayed in contactpage", "verify hyperlink displayed in testleaf")</span>
+                <span class="method-start">26068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(cucumber....)</span>
+                <span class="method-start">36925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">38022 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.annular.testrunners.TC_103</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">38148 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, 91.0, false)</span>
+                <span class="method-start">38154 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">38170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Radio Button", "Verify Radio button")</span>
+                <span class="method-start">38172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(cucumber....)</span>
+                <span class="method-start">45549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">45916 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.annular.testrunners.TC_104</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">45941 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, 91.0, false)</span>
+                <span class="method-start">45945 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">45958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Alert Handling in testLeaf", "Alert handling")</span>
+                <span class="method-start">45960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(cucumber....)</span>
+                <span class="method-start">53327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">54360 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.annular.testrunners.TC_105</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">54392 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, 91.0, false)</span>
+                <span class="method-start">54396 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">54408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Drag and Drop", "Dragagable and Dropabble")</span>
+                <span class="method-start">54409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(cucumber....)</span>
+                <span class="method-start">60697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">61765 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.annular.testrunners.TC_106</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">61784 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome, 91.0, false)</span>
+                <span class="method-start">61788 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">61799 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Dragabble", "Dragagable button")</span>
-                <span class="method-start">678 ms</span>
+                <span class="method-start">61800 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(cucumber....)</span>
-                <span class="method-start">87465 ms</span>
+                <span class="method-start">148817 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">89008 ms</span>
+                <span class="method-start">149733 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

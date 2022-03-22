@@ -14,12 +14,9 @@
              <class name="com.annular.testrunners.TC_102"></class>
              <class name="com.annular.testrunners.TC_103"></class>
              <class name="com.annular.testrunners.TC_104"></class> 
-              <class name="com.annular.testrunners.TC_105"></class>
-               <class name="com.annular.testrunners.TC_106"></class>
+             <class name="com.annular.testrunners.TC_105"></class>
+             <class name="com.annular.testrunners.TC_106"></class>  
+
    	   	</classes>
 	</test>
 </suite>
-
-
-
-
