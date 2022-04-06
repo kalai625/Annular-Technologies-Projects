@@ -119,8 +119,12 @@ public class HomePage {
 	 private static final String  dragabbleIcon="//h5[contains(text(),'Edit')]//following::h5[12]";
 	 private static final String  drag1="//div[@style='background-color: forestgreen; position: relative;']";
 	 private static final String  drag2="//div[@style='background-color: forestgreen; position: relative; left: 503px; top: 154px;']";
+	 private static final String  dumm="//div[@style='background-color: forestgreen; position: relative; left: 503px; top: 154px;']";
 	 
 	//******
+	 public SelenideElement dumm() {
+			return this.driver.getXpathElement(dumm);
+		}
 	 public SelenideElement drag1() {
 			return this.driver.waitForXpathElementToAppear(drag1);
 		}
